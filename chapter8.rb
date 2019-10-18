@@ -1,13 +1,20 @@
+puts "問"
 p ({:coffee => 300, :caffe_latte => 400}).class
 
+puts "\n"
+puts "問"
 p Hash.new
 
+puts "\n"
+puts "問"
 class CaffeLatte 
 end
 
 caffe_latte = CaffeLatte.new
 p caffe_latte.class
 
+puts "\n"
+puts "問"
 class Item
     def name
         return "チーズケーキ"
@@ -18,6 +25,8 @@ item = Item.new
 puts item.name
 
 
+puts "\n"
+puts "問"
 class Item
     def name=(text)
         @name = text
@@ -31,6 +40,8 @@ item = Item.new
 puts item.name = "チーズケーキ"
 
 
+puts "\n"
+puts "問"
 class Item
     def initialize
         puts "商品を扱うオブジェクト"
@@ -40,6 +51,8 @@ end
 Item.new
 
 
+puts "\n"
+puts "問"
 class Item
     def initialize(text)
         @name = text
@@ -56,6 +69,8 @@ puts text1.name
 puts text2.name
 
 
+puts "\n"
+puts "問"
 class Drink
     def self.todays_special
         "ホワイトモカ"
@@ -65,6 +80,8 @@ end
 puts Drink.todays_special
 
 
+puts "\n"
+puts "問"
 class Item2
     def name
         @name
